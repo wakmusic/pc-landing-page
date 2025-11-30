@@ -8,6 +8,8 @@ body {
     background: rgba(8, 15, 52, 1);
     font-family: 'Pretendard', sans-serif;
     color: white;
+    padding: 0;
+    margin: 0;
 }
 
 .circle-wrapper {
@@ -64,6 +66,20 @@ body {
     width: 50%;
 }
 
+.update {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
 .header {
     display: flex;
     gap: 50px;
@@ -110,6 +126,7 @@ h1::before {
     display: flex;
     gap: 260px;
     justify-content: left;
+    margin-top: -60px;
 }
 
 .content {
@@ -129,7 +146,7 @@ h1::before {
 }
 
 .button-wrapper {
-    margin-top: 30px;
+    margin-top: 5px;
     display: flex;
     gap: 15px;
 }
