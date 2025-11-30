@@ -78,6 +78,8 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-weight: bold;
+    color: #FF8F0C;
 }
 
 .header {
